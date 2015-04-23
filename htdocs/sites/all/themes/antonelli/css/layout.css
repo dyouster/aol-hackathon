@@ -116,4 +116,7 @@
 }
 #footer-wrapper {
   padding: 35px 0 30px;
+  height: 300px;
+  background-image: url("/sites/all/themes/antonelli/footerBackground1.png");
+
 }
