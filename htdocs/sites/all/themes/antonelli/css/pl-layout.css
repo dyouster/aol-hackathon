@@ -54,10 +54,20 @@
 	display:none;
 }
 
-/* ---Misc--- */
+#triptych > * {
+  min-width:30%;
+  width:30%;
+}
 
-/* Header colour */
-#header {
-	background-color: #000;
-	background-image: -moz-linear-gradient(-90deg, #4D4D4D, #111);
+#triptych > * .block {
+}
+
+.region-triptych-first {
+
+}
+
+.region-triptych-middle {
+}
+
+.region-triptych-last {
 }

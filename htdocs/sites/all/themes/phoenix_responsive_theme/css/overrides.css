@@ -1,0 +1,42 @@
+/* Top three columns */
+
+#top-area {
+	min-width: 80%;
+}
+
+#top-area .region {
+	padding: 2em;
+	text-align: center;
+}
+
+#top-area .region a {
+	color:white;
+}
+
+#top-area .region a:hover {
+	text-decoration: underline;
+}
+
+#top-area .contextual-links-region h2 {
+  text-align: center;
+}
+
+/* The aggregator */
+.region-top-first {
+	background: #639bb4;
+}
+
+/* The news box */
+.region-top-second {
+	background: #7dbf94;
+}
+
+/* The please welcome box */
+.region-top-third {
+	background: #e7ca52;
+}
+
+/* Hide the add comment link on articles */
+.node-article .comment-add a {
+	display: none;
+}

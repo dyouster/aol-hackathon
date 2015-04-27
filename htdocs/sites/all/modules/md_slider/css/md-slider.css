@@ -18,7 +18,7 @@
 /* slideshow */
 .md-slide-wrap {position: relative; height: 400px;}
 .md-slide-wrap img {max-width: inherit !important; min-width: inherit !important; max-height: inherit !important; min-height: inherit !important; width: auto;}
-.md-item-wrap {position: relative;height: 100%; z-index: 2}
+.md-item-wrap {position: relative; height: 100%; z-index: 2}
 .md-item-wrap {overflow: hidden;}
 .md-slide-items {position: relative; z-index: 1;height: 100%;width:100%;overflow: hidden;}
 .md-slide-item {height: 420px; position: absolute; width: 100%}
@@ -49,9 +49,9 @@
 
 /* bullet buttons */
 .md-bullets {position: absolute; text-align: center; z-index: 4; right: 20px; left: 20px;}
-	.md-slide-bullet-1 .md-bullets {bottom: 10px; text-align: left;}
-	.md-slide-bullet-2 .md-bullets {bottom: 10px; text-align: center;}
-	.md-slide-bullet-3 .md-bullets {bottom: 10px; text-align: right;}
+	.md-slide-bullet-1 .md-bullets {bottom: -18px; text-align: left;}
+	.md-slide-bullet-2 .md-bullets {bottom: -18px; text-align: center;}
+	.md-slide-bullet-3 .md-bullets {bottom: -18px; text-align: right;}
 	.md-slide-bullet-4 .md-bullets {top: 10px; text-align: left;}
 	.md-slide-bullet-5 .md-bullets {top: 10px; text-align: center;}
 	.md-slide-bullet-6 .md-bullets {top: 10px; text-align: right;}
@@ -186,6 +186,7 @@
     box-sizing:border-box;
     -moz-box-sizing:border-box;
     -webkit-box-sizing:border-box;
+    
 }
 .mdslider-tile {
     bottom: 0;
