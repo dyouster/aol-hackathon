@@ -9,6 +9,7 @@ engine = phptemplate
 stylesheets[all][] = css/layout.css
 stylesheets[all][] = css/antonelli.css
 stylesheets[all][] = css/colors.css
+stylesheets[all][] = css/pl-layout.css
 
 regions[header] = Header
 regions[help] = Help
