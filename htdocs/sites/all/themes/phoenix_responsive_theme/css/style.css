@@ -534,9 +534,15 @@ ul.menu{
 .region-slideshow{
   background: url(../images/drop-shadow.png) no-repeat;
   background-size: 100%;
-  padding: 0% 2% 0% 2%;
-  width:90%;
+  padding: 0% 2% 2% 2%;
+  width:95%;
   margin: 0 auto;
+  margin-top: 5px;
+  margin-bottom:20px;
+  box-shadow: 5px 5px 8px #999393;
+  background-color: #7DBF94;
+
+
 }
 
 #block-nivo-slider-nivo-slider{
