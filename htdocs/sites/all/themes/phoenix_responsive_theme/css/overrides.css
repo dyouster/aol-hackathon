@@ -9,7 +9,7 @@
 	text-align: center;
 }
 
-#top-area .region a {
+#top-area .region a, #top-area .region p {
 	color:white;
 }
 
@@ -33,10 +33,26 @@
 
 /* The please welcome box */
 .region-top-third {
-	background: #e7ca52;
+	background: #df815a;
+}
+
+#top-area .region .more-link a {
+	color:#666;
 }
 
 /* Hide the add comment link on articles */
 .node-article .comment-add a {
 	display: none;
+}
+
+#top-area .column {
+	height:22vmax;
+}
+
+#top-area .column .region {
+	height:100%;
+}
+
+#top-area .column .region .content {
+	display:none
 }

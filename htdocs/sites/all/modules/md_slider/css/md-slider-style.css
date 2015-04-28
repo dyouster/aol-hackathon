@@ -30,9 +30,9 @@ background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAAMCAI
 .md-loading-bg {background: #fff; opacity: 0.6;}
 .md-loading-state {background: #fff}
 .md-bullet {
-	background: #ccc;
+	background: #A1B3A6;
 }
-.md-bullet a {background: #fff}
+.md-bullet a {background: #525954}
 .md-bullet span,
 .md-bullet img {border: 3px solid #fff; top:0; left:0;
     -moz-box-shadow: 0px 3px 6px rgba(0,0,0,.5);
