@@ -223,6 +223,10 @@
   	font-size:18px;
   }
 
+  div.region.region-slideshow{
+    display:none;
+  }
+
 }
 
 @media screen and (max-width: 440px) {

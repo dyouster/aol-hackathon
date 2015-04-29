@@ -55,14 +55,14 @@
 	.md-slide-bullet-4 .md-bullets {top: 10px; text-align: left;}
 	.md-slide-bullet-5 .md-bullets {top: 10px; text-align: center;}
 	.md-slide-bullet-6 .md-bullets {top: 10px; text-align: right;}
-.md-bullet {cursor: pointer; display: inline-block; height: 11px; margin: 0 4px; position: relative; width: 11px;
+.md-bullet {cursor: pointer; display: inline-block; height: 9px; margin: 0 4px; position: relative; width: 9px;
     -webkit-border-radius: 6px;
     -moz-border-radius: 6px;
     border-radius: 6px;
     zoom: 1;
     *display: inline;
 }
-.md-bullet a { display: none;height: 11px; left: 0; overflow: hidden; position: absolute; top: 0; width: 11px;
+.md-bullet a { display: none;height: 9px; left: 0; overflow: hidden; position: absolute; top: 0; width: 9px;
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
     border-radius: 5px;
@@ -82,7 +82,7 @@
 .md-thumb span {margin: 0 10px 0 0;}
 
 .md-thumb .md-thumb-prev,
-.md-thumb .md-thumb-next {position: absolute; top: 50%; width: 11px; height: 21px; margin-top: -10px;background: url(../images/thumb-arrow.png) no-repeat 0 0; cursor: pointer; z-index: 3}
+.md-thumb .md-thumb-next {position: absolute; top: 50%; width: 9px; height: 21px; margin-top: -10px;background: url(../images/thumb-arrow.png) no-repeat 0 0; cursor: pointer; z-index: 3}
 .md-thumb .md-thumb-prev {left: 10px;}
 .md-thumb .md-thumb-next {right: 10px; background-position: -13px 0}
 
@@ -159,6 +159,14 @@
 
 @media screen and (max-width: 760px) {
 		.md-video .md-playbtn { width: 15%; height: 18%; margin: -7.5%; margin-top: -5%; max-width: 50px; max-height: 33px; background-size: 100% 100%;}
+
+        .md-bullets {position: absolute; text-align: center; z-index: 4; right: 20px; left: 20px;}
+        .md-slide-bullet-1 .md-bullets {bottom: -15px; text-align: left;}
+        .md-slide-bullet-2 .md-bullets {bottom: -15px; text-align: center;}
+        .md-slide-bullet-3 .md-bullets {bottom: -15px; text-align: right;}
+        .md-slide-bullet-4 .md-bullets {top: 10px; text-align: left;}
+        .md-slide-bullet-5 .md-bullets {top: 10px; text-align: center;}
+        .md-slide-bullet-6 .md-bullets {top: 10px; text-align: right;}
 	}
 
 

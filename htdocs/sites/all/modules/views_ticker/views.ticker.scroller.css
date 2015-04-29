@@ -41,11 +41,13 @@ display: block;
 /*	border: 1px solid #000; */
 	background-color: #ffffff;
 	width: 100%; 
-	overflow: hidden; 
+	overflow: hidden;
+	padding-bottom: 5px;
+	padding-top: 5px;
 }
 
 .liScroll-container .mask { /* that serves as a mask. so you get a sort of padding both left and right */
-	position: relative;
+	float: right;
 	width: 100%;
 	overflow: hidden;
 }

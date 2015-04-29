@@ -96,7 +96,7 @@ a {
 a:hover { color: #67e869; }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Helvetica', sans-serif;
+  font-family: 'Verdana', sans-serif;
   font-weight: normal;
   margin-bottom:6px;
   color: #ffffff;
@@ -358,11 +358,12 @@ b{ font-weight: bold; color: #333; }
   margin: 8px 0 0px 0;
   font-weight: bold;
   font-size: 44px;
+  font-family: 'Open Sans' , sans-serif;
 }
 
 #site-title a{
   float: left;
-  margin-top: 13px;
+  margin-top: 10px;
   color: #67E869;
   font-weight: bold;
 }
@@ -713,7 +714,7 @@ body.sidebar-second #sidebar-second {
 }
 
 .node h2.title a{
-  color: rgb(114, 114, 114);
+  color: #67e869
 }
 
 .block {
@@ -722,7 +723,7 @@ body.sidebar-second #sidebar-second {
 
 .block:last-child{
   margin: 0 auto;
-  width: 70%;
+  width: 95%;
 }
 
 .block > h2{
@@ -988,7 +989,6 @@ ul.secondary a.active {
   background: #cfcfcf;
   border-radius: 3px;
   margin-right: 4px;
-  text-shadow: 1px 1px #fff;
 }
 
 /*-------------------------------------------*
@@ -1363,12 +1363,15 @@ ol.search-results { padding-left: 0; }
 }
 
 #top-area h2{
+  font-size: 50%;
+  text-transform: uppercase;
+  text-align: left;
   padding: 10px 0;
   margin: 0;
 }
 
 #top-area .column .content{
-  padding: 10px 0;
+  /* padding: 10px 0; */
 }
 
 #top-area .column:first-child {
