@@ -233,7 +233,7 @@
   <?php endif; ?>
       
     <div id="copyright">
-     <p class="copyright"><?php print t('Copyright'); ?> &copy; <?php echo date("Y"); ?>, <?php print $site_name; ?> </p> <p class="credits"> <?php print t('Designed by'); ?>  <a>Aol Interns</a></p>
+     <p class="copyright"><?php print t('Copyright'); ?> &copy; <?php echo date("Y"); ?>, <?php print "Aol " . $site_name; ?> </p> <p class="credits"> <?php print t('Designed by'); ?>  <a>Aol Interns</a></p>
     <div class="clear"></div>
     </div>
   </div>
