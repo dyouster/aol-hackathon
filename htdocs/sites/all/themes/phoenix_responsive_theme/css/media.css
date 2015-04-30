@@ -3,7 +3,10 @@
   #wrapper {
     max-width:960px;
   }
-
+  #top-area.column{
+    height: 22vmax;
+  }
+  
   #top-area .column:last-child{
     margin-right: 0;
   }

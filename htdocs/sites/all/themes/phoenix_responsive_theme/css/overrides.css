@@ -4,10 +4,6 @@
 	min-width: 80%;
 }
 
-#top-area .column {
-  height: 22vmax;
-}
-
 #top-area .region {
 	padding: .5em;
 	text-align: center;
@@ -53,6 +49,7 @@
 }
 
 #top-area .column {
+height: 300px;
 	
 }
 
