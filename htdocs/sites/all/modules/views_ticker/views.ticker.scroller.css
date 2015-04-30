@@ -39,7 +39,7 @@ display: block;
 
 .liScroll-container { /* the outer div with the black border */
 /*	border: 1px solid #000; */
-	background-color: #ffffff;
+	background: url("/sites/all/themes/phoenix_responsive_theme/images/tickerBackground.png");
 	width: 100%; 
 	overflow: hidden;
 	padding-bottom: 5px;

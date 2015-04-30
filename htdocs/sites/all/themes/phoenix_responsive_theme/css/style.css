@@ -107,7 +107,9 @@ h1 {
 }
 
 h2 {
-  font-size:28px;
+    font-size: 20%;
+    text-align: left;
+    text-transform: uppercase;
 }
 
 h3 {
@@ -1363,7 +1365,7 @@ ol.search-results { padding-left: 0; }
 }
 
 #top-area h2{
-  font-size: 50%;
+  font-size: 100%;
   text-transform: uppercase;
   text-align: left;
   padding: 10px 0;
