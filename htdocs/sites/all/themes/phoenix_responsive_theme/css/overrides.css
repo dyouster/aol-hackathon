@@ -21,12 +21,24 @@
   text-align: left;
   text-transform: uppercase;
   vertical-align: middle;
+  font-weight:bold;
 }
 
+#top-area .column .views-field-title {
+  font-weight: bold;
+}
 
-/* The aggregator */
+#top-area .column .field-content img  {
+  margin-top:0.8em;
+}
+
+/* The events box */
 .region-top-first {
 	background: #639bb4;
+}
+
+#top-area .column .region-top-first .views-field-field-img {
+  background: #ddddff ;
 }
 
 /* The news box */
@@ -34,10 +46,39 @@
 	background: #7dbf94;
 }
 
+#top-area .column .region-top-second .views-field-field-image {
+  background: #ddffdd;
+}
+
+#top-area .column .region-top-second .views-field-field-image .field-content {
+  padding-bottom:0.8em;
+}
+
 /* The please welcome box */
 .region-top-third {
 	background: #df815a;
 }
+
+#flexslider-1 li {
+  background: #ffdddd;
+}
+
+#top-area .column .region-top-third .views-field-field-team .field-content {
+  margin-top: 0.8em;
+}
+
+#top-area .region .views-field-title {
+  border-top: 1px solid #eeeeee;
+}
+
+#top-area .region-top-third .views-field-title {
+  background: #df815a;
+}
+
+#top-area .region-top-third .views-field-field-team {
+  background: #df815a;
+}
+
 
 #top-area .region .more-link a {
 	color:#666;
@@ -100,10 +141,14 @@ height: 300px;
 #flexslider-1 .views-field-field-profile-picture {
   width:40%;
   margin: 0 auto;
+  padding-top:1px;
 }
 
 /* Please Welcome */
 #flexslider-1 {
   background: #df815a;
   border-color: #df815a;
+  display:block;
+  width:90%;
+  margin:0 auto;
 }
