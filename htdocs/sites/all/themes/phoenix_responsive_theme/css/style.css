@@ -310,6 +310,7 @@ img,
 video {
   max-width:100%;
   height:auto;
+  
 }
 
 video {
@@ -521,7 +522,7 @@ ul.menu{
 }
 
 #main-menu ul.menu li li:hover >a{
-  background: #5CB8E6;
+  background: #67E869;
 }
 
 #main-menu li.expanded, #main-menu li.collapsed, #main-menu li.leaf {
@@ -726,7 +727,7 @@ body.sidebar-second #sidebar-second {
 
 .block:last-child{
   margin: 0 auto;
-  width: 95%;
+  width: 100%;
 }
 
 .block > h2{
@@ -1649,15 +1650,17 @@ div.warning{
   background-color: #FFFCE5;
   border-color: #ED5;
 }
-
+//------------------------------------------------------------
 //News page CSS
+//------------------------------------------------------------
+
 .page-news .block:last-child {
     margin: 0;
 }
-
 .page-news h1.page-title {
     height: 60px;
     margin-bottom: 40px;
+    vertical-align: middle;
 }
 
 .page-news i.column-icon.fa.fa-newspaper-o.fa-2x {
@@ -1669,19 +1672,31 @@ div.warning{
 .page-news .views-field.views-field-title {
     font-size: 2.5em;
     margin-bottom: 15px;
-    padding-top: 10px;
 }
 
 .page-news .views-row {
     background-color: #dedede;
     height: 110%;
     box-shadow: 5px 5px 3px #ccc;
-    padding-left: 2%;
+    padding: 2% 2% 2% 2%;
     margin-bottom: 15px;
 }
 
 .page-news .views-field-body {
     margin-bottom: 10px;
+}
+.page-news img{ 
+    max-width: 100%; 
+    height: auto; 
+    float: left; 
+    margin: 1% 1% 1% 1%; 
+}
+.page-news p{
+  margin-bottom: 18px;
+  color: #666;
+  padding-top: 10px;
+  font-size: 110%;
+  text-align: justify;
 }
 
 .page-news .more-link {
@@ -1689,5 +1704,34 @@ div.warning{
 }
 
 .page-news .submitted{
-  background-color: #dedede;
+    background-color: #dedede;
+}
+.page-news h2.title a{
+    font-weight: bold;
+    color:#666666
+}
+//------------------------------------------------------
+//Please Welcome page
+//------------------------------------------------------
+
+.page-please-welcome h1.page-title {
+    height: 60px;
+    margin-bottom: 40px;
+    vertical-align: middle;
+}
+.page-please-welcome i.column-icon.fa.fa-newspaper-o.fa-2x {
+    margin-right: 8%;
+    font-size: 1.5em;
+}
+.page-please-welcome .views-row{
+background-color: #222222;
+}
+
+
+.page-please-welcome .views-label .views-label-field-favourite-thing-about-wher{
+  font-weight: bold;
+  font-size: 200%;
+}
+.page-please-welcome .field-content{
+font-size: 110%;
 }

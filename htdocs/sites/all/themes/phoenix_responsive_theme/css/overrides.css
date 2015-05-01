@@ -5,7 +5,7 @@
 }
 
 #top-area .region {
-	padding: .5em;
+	/* padding: .5em; */
 	text-align: center;
 }
 
@@ -22,6 +22,7 @@
   text-transform: uppercase;
   vertical-align: middle;
   font-weight:bold;
+  padding: 10px;
 }
 
 #top-area .column .views-field-title {
@@ -29,7 +30,7 @@
 }
 
 #top-area .column .field-content img  {
-  margin-top:0.8em;
+  padding-top: 15px;
 }
 
 /* The events box */
@@ -37,8 +38,9 @@
 	background: #639bb4;
 }
 
-#top-area .column .region-top-first .views-field-field-img {
-  background: #ddddff ;
+#top-area .column .region-top-first .views-field-nothing {
+  background: #eeeeff;
+  height: 130px;
 }
 
 /* The news box */
@@ -46,12 +48,13 @@
 	background: #7dbf94;
 }
 
-#top-area .column .region-top-second .views-field-field-image {
-  background: #ddffdd;
+#top-area .column .region-top-second .views-field-nothing {
+  background: #eeffee;
+  height: 130px;
 }
 
 #top-area .column .region-top-second .views-field-field-image .field-content {
-  padding-bottom:0.8em;
+  /* padding-bottom:0.8em; */
 }
 
 /* The please welcome box */
@@ -59,12 +62,13 @@
 	background: #df815a;
 }
 
+/* --Please welcome slider border */
 #flexslider-1 li {
-  background: #ffdddd;
+  background: #ffeeee;
 }
 
 #top-area .column .region-top-third .views-field-field-team .field-content {
-  margin-top: 0.8em;
+  
 }
 
 #top-area .region .views-field-title {
@@ -137,11 +141,17 @@ height: 300px;
 
 
 
-/* Please welcome */
+/* Please welcome 
 #flexslider-1 .views-field-field-profile-picture {
-  width:40%;
+  width:100px;
   margin: 0 auto;
-  padding-top:1px;
+}*/
+
+
+#flexslider-1 .views-field-nothing img {
+  width:auto;
+  display:block;
+  margin:0 auto;
 }
 
 /* Please Welcome */
@@ -149,6 +159,6 @@ height: 300px;
   background: #df815a;
   border-color: #df815a;
   display:block;
-  width:90%;
+  width:100%;
   margin:0 auto;
 }
