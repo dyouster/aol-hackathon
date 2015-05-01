@@ -1687,3 +1687,7 @@ div.warning{
 .page-news .more-link {
     font-size: 18px;
 }
+
+.page-news .submitted{
+  background-color: #dedede;
+}
