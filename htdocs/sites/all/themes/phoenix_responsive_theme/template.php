@@ -8,7 +8,6 @@ function phoenix_responsive_theme_html_head_alter(&$head_elements) {
     'charset' => 'utf-8'
   );
 }
-
 /**
  * Insert themed breadcrumb page navigation at top of the node content.
  */

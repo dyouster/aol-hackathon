@@ -226,7 +226,6 @@
       <li><a class="twitter" href="<?php echo theme_get_setting('twitter_profile_url', 'phoenix_responsive_theme'); ?>" target="_blank" rel="me"><i class="fa fa-twitter"></i></a></li>
       <li><a class="gplus" href="<?php echo theme_get_setting('gplus_profile_url', 'phoenix_responsive_theme'); ?>" target="_blank" rel="me"><i class="fa fa-google-plus"></i></a></li>
       <li><a class="linkedin" href="<?php echo theme_get_setting('linkedin_profile_url', 'phoenix_responsive_theme'); ?>" target="_blank" rel="me"><i class="fa fa-linkedin"></i></a></li>
-      <li><a class="pinterest" href="<?php echo theme_get_setting('pinterest_profile_url', 'phoenix_responsive_theme'); ?>" target="_blank" rel="me"><i class="fa fa-pinterest"></i></a></li>
       <li><a class="youtube" href="<?php echo theme_get_setting('youtube_profile_url', 'phoenix_responsive_theme'); ?>" target="_blank" rel="me"><i class="fa fa-youtube"></i></a></li>
      </ul>
     </div>

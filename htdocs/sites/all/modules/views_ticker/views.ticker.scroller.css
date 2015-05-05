@@ -2,7 +2,7 @@
 /* Default styles */
 .views-scroller-horizontal-container {
  width: 600px;
- height: 40px;
+ height: 100%;
  overflow: hidden;
 }
 
@@ -42,13 +42,13 @@ display: block;
 	background: url("/sites/all/themes/phoenix_responsive_theme/images/tickerBackground.png");
 	width: 100%; 
 	overflow: hidden;
-	padding-bottom: 5px;
-	padding-top: 5px;
+	height: 55px;
 }
 
 .liScroll-container .mask { /* that serves as a mask. so you get a sort of padding both left and right */
 	float: right;
 	width: 100%;
+	height: inherit;
 	overflow: hidden;
 }
 
@@ -58,7 +58,7 @@ ul.liScroll { /* that's your list */
 	margin: 0;
 	padding: 0; 
 	list-style-type: none;
-	/* height: 58px; */
+	line-height: 1.2em;
 }
 
 ul.liScroll li {
@@ -74,4 +74,5 @@ ul.liScroll a {
 ul.liScroll span {
 	margin: 0 30px 0 0;
 }
+
 

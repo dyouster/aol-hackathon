@@ -787,8 +787,11 @@ body.sidebar-second #sidebar-second {
 }
 
 .submitted {
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
   background: rgb(247, 247, 247);
-  border-bottom: 2px solid rgb(236, 236, 236);
+  border: 1px solid rgb(236, 236, 236);
+  border-radius: 4px;
   clear: both;
   color: rgb(56, 56, 56);
   display: inline-block;
@@ -1369,9 +1372,8 @@ ol.search-results { padding-left: 0; }
   font-size: 100%;
   text-transform: uppercase;
   text-align: left;
-  padding: 10px 10px;
+  padding: 10px 0;
   margin: 0;
-  font-weight: bold;
 }
 
 #top-area .column .content{
@@ -1648,10 +1650,12 @@ div.warning{
   background-color: #FFFCE5;
   border-color: #ED5;
 }
+
+/*
 //------------------------------------------------------------
 //News page CSS
 //------------------------------------------------------------
-
+*/
 .page-news .block:last-child {
     margin: 0;
 }
@@ -1678,6 +1682,7 @@ div.warning{
     box-shadow: 5px 5px 3px #ccc;
     padding: 2% 2% 2% 2%;
     margin-bottom: 15px;
+    width: 95%;
 }
 
 .page-news .views-field-body {
@@ -1703,14 +1708,20 @@ div.warning{
 
 .page-news .submitted{
     background-color: #dedede;
+    border: none;
+    border-bottom: 2px solid rgb(236, 236, 236);
 }
-.page-news h2.title a{
+.page-news h2.title{
     font-weight: bold;
     color:#666666
 }
+
+
+/*
 //------------------------------------------------------
 //Please Welcome page
 //------------------------------------------------------
+*/
 
 .page-please-welcome h1.page-title {
     height: 60px;
@@ -1718,17 +1729,21 @@ div.warning{
     vertical-align: middle;
     color: #666666
 }
-.page-please-welcome i.column-icon.fa.fa-newspaper-o.fa-2x {
+.page-please-welcome i.column-icon.fa.fa-user-plus.fa-2x {
     margin-right: 8%;
     font-size: 1.5em;
 }
+.page-please-welcome  .view-content{
+    margin-top: 70px;
+}
+    
 .page-please-welcome .views-row{
     background-color: #dedede;
     height: 110%;
     box-shadow: 5px 5px 3px #ccc;
     padding: 2% 2% 2% 2%;
     margin-bottom: 15px;
-
+    width: 95%;
 }
 .page-please-welcome .views-label {
     font-weight: bold;
@@ -1736,4 +1751,44 @@ div.warning{
 }
 .page-please-welcome .views-field {
     margin-bottom:3px;
+}
+
+/*
+//----------------------------------
+//Event node
+//----------------------------------
+*/
+
+#cboxContent #header, #cboxContent #footer  {
+  display: none;
+}
+
+#cboxContent .field-name-field-img .field-label {
+  display: none;
+}
+
+#cboxContent .field-name-field-tile-text {
+  display:none;
+}
+
+/*
+//----------------------------------
+//Calender page
+//----------------------------------
+*/
+
+.page-calendar h2 {
+  font-size: 190%;
+  margin: 1px;
+  color: #666;
+}
+
+/*
+//----------------------------------
+//Auto-refresh
+//----------------------------------
+*/
+
+.view-header .auto-refresh {
+  display: none;
 }

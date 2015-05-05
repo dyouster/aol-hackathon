@@ -34,6 +34,11 @@
   height: 115px;
 }
 
+#top-area .block-views h2 {
+  padding:10px;
+  font-weight:bold;
+}
+
 /* The events box */
 .region-top-first {
 	background: #639bb4;
