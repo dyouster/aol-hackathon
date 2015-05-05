@@ -31,6 +31,7 @@
 
 #top-area .column .field-content img  {
   padding-top: 15px;
+  height: 115px;
 }
 
 /* The events box */
@@ -161,4 +162,8 @@ height: 300px;
   display:block;
   width:100%;
   margin:0 auto;
+}
+
+.views-field.views-field-nothing{
+	height: 130px;
 }
