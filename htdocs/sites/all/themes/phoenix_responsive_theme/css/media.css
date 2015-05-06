@@ -137,7 +137,7 @@
     display: block;
     font-size: 15px;
     font-weight: normal;
-    background: #F5B643;
+    background: #7E867D;
     color: white;
     margin: 0;
     margin-top: 10px;
@@ -181,10 +181,7 @@
   #top-area .column {
     margin:10px;
   }
-  #top-area.column {
-   /*height: 25vmax; do not turn this back on Ask david dunne*/
-}
-
+ 
   #top-area .column:first-child,
   #footer-area .column:first-child{
     margin: 10px;
@@ -207,7 +204,7 @@
 
   #logo{ margin: 8px 0; text-align: center; }
 
-  #logo img{ text-align: center; float: none; }
+  #logo img{ text-align: center; float: none; height: 100px; }
 
   #site-title{
     display: inline-block;

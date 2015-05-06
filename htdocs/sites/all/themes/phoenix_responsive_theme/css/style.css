@@ -1784,6 +1784,25 @@ div.warning{
 }
 
 /*
+//------------------------------------
+//Event node 
+//-----------------------------------
+*/
+.node-event, .node-hr-event, .node-event-product-launch, .node-event-site-visitor, 
+.node-event-sports-social, .node-event-tech-talk, .node-event-training {
+  color: #666;
+  padding:2%;
+  background-color:#DEDEDE;
+  box-shadow: 5px 5px 3px #CCC;
+  width:95%;
+  margin-bottom:15px;
+}
+
+.node-event .field, .node-hr-event .field, .node-event-product-launch .field, .node-event-site-visitor .field, .node-event-sports-social .field, .node-event-tech-talk .field, .node-event-training .field {
+  margin-bottom:10px;
+}
+
+/*
 //----------------------------------
 //Auto-refresh
 //----------------------------------
