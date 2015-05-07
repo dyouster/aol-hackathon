@@ -520,9 +520,14 @@ ul.menu{
   border: 0;
   margin: 0;
 }
-
 #main-menu ul.menu li li:hover >a{
   background: #67E869;
+}
+.li-with-child::after{
+content: ">";
+color: #FFF;
+font-weight: bold;
+float:right;
 }
 
 #main-menu li.expanded, #main-menu li.collapsed, #main-menu li.leaf {
@@ -1660,9 +1665,10 @@ div.warning{
     margin: 0;
 }
 .page-news h1.page-title {
-    height: 60px;
+    height: 70px;
     margin-bottom: 40px;
     vertical-align: middle;
+    line-height: 1.8em;
 }
 
 .page-news i.column-icon.fa.fa-newspaper-o.fa-2x {
@@ -1724,10 +1730,11 @@ div.warning{
 */
 
 .page-please-welcome h1.page-title {
-    height: 60px;
+    height: 30px;
     margin-bottom: 40px;
     vertical-align: middle;
-    color: #666666
+    color: #666666;
+    line-height: 1.8em;
 }
 .page-please-welcome i.column-icon.fa.fa-user-plus.fa-2x {
     margin-right: 8%;
@@ -1753,6 +1760,25 @@ div.warning{
     margin-bottom:3px;
 }
 
+.page-please-welcome .views-field-field-profile-picture{
+    width: 30%;
+    float: right;
+    margin-bottom: 0px;
+       
+}
+
+.page-please-welcome .views-field-body-1{
+	width: 60%;
+}
+
+.page-please-welcome .views-field-title{
+	font-size: 22px;
+	margin-bottom: 20px;
+}
+
+.page-please-welcome .views-row{
+	min-height: 300px;
+}
 /*
 //----------------------------------
 //Event node
@@ -1785,11 +1811,11 @@ div.warning{
 
 /*
 //------------------------------------
-//Event node 
+// Event node 
 //-----------------------------------
 */
 .node-event, .node-hr-event, .node-event-product-launch, .node-event-site-visitor, 
-.node-event-sports-social, .node-event-tech-talk, .node-event-training {
+.node-event-sports-social, .node-event-tech-talk, .node-event-training, .node-talk {
   color: #666;
   padding:2%;
   background-color:#DEDEDE;
@@ -1798,9 +1824,33 @@ div.warning{
   margin-bottom:15px;
 }
 
-.node-event .field, .node-hr-event .field, .node-event-product-launch .field, .node-event-site-visitor .field, .node-event-sports-social .field, .node-event-tech-talk .field, .node-event-training .field {
+.node-event .field, .node-hr-event .field, .node-event-product-launch .field, 
+.node-event-site-visitor .field, .node-event-sports-social .field, 
+.node-event-tech-talk .field, .node-event-training .field,
+.node-talk .field {
   margin-bottom:10px;
 }
+
+/*
+//-----------------------------------
+//Article node
+//-----------------------------------
+*/
+.page-node .node-article {
+  color: #666;
+  padding:2%;
+  background-color:#DEDEDE;
+  box-shadow: 5px 5px 3px #CCC;
+  width:95%;
+  margin-bottom:15px;
+}
+
+.page-node.node-type-article .submitted {
+    background-color: #EEE;
+    border: none;
+    border-bottom: 2px solid rgb(236, 236, 236);
+}
+
 
 /*
 //----------------------------------

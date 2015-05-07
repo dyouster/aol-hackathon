@@ -204,7 +204,7 @@
         <div class="mdtl-head-left">Timeline</div>
         <div class="mdtl-head-right">
           <div class="mdtl-ruler">
-            <?php for ($i = 0; $i < 20; $i++): ?>
+            <?php for ($i = 0; $i < 40; $i++): ?>
               <div class="number"><span><?php print $i; ?></span></div>
               <div></div>
               <div></div>
