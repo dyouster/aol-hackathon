@@ -523,12 +523,6 @@ ul.menu{
 #main-menu ul.menu li li:hover >a{
   background: #67E869;
 }
-.li-with-child::after{
-content: ">";
-color: #FFF;
-font-weight: bold;
-float:right;
-}
 
 #main-menu li.expanded, #main-menu li.collapsed, #main-menu li.leaf {
   margin: 0;
@@ -1349,6 +1343,16 @@ ol.search-results { padding-left: 0; }
   color: white;
   font-family: helvetica;
 }
+#top2-area {
+  clear:both;
+  position:relative;
+  max-width: 1000px;
+  margin: 1% auto;
+  text-align: center;
+  color: white;
+  font-family: helvetica;
+}
+
 
 #top-area .block {
 }
@@ -1356,24 +1360,52 @@ ol.search-results { padding-left: 0; }
 #top-area .block p{
   margin: 0;
 }
+#top2-area .block p{
+  margin: 0;
+}
 
-#top-area .column {
+
+#top-area .column{
   float: left;
   width: 32.3%;
   margin: 1.8% 0;
   margin: 0 5px;
   box-shadow: 5px 5px 8px #999393;}
 
+#top2-area .column {
+  float: left;
+  width: 32.3%;
+  margin: 1.8% 0;
+  margin: 0 5px;
+  box-shadow: 5px 5px 8px #999393;
+height: 300px;
+}
+
+
 #top-area .column:last-child{
   float: right;
   margin-right: 0;
 }
+
+#top2-area .column:last-child{
+  float: right;
+  margin-right: 0;
+}
+
 
 #footer-area .column:last-child{
   float: right;
 }
 
 #top-area h2{
+  font-size: 100%;
+  text-transform: uppercase;
+  text-align: left;
+  padding: 10px 0;
+  margin: 0;
+}
+
+#top2-area h2{
   font-size: 100%;
   text-transform: uppercase;
   text-align: left;
@@ -1389,10 +1421,19 @@ ol.search-results { padding-left: 0; }
   margin-left:0;
   margin-right: 1.2%;
 }
+#top2-area .column:first-child {
+  margin-left:0;
+  margin-right: 1.2%;
+}
+
 
 #top-area .column-title {
   color:#e0e0e0;
 }
+#top2-area .column-title {
+  color:#e0e0e0;
+}
+
 
 #footer {
   overflow: auto;
@@ -1722,6 +1763,13 @@ div.warning{
     color:#666666
 }
 
+.page-news #site-title a{
+    margin-top:12px;
+}
+
+.page-news .date-display-single{
+    font-size:12px;
+}
 
 /*
 //------------------------------------------------------
@@ -1779,9 +1827,23 @@ div.warning{
 .page-please-welcome .views-row{
 	min-height: 300px;
 }
+.page-please-welcome #site-title a{
+    margin-top:12px;
+}
+
 /*
 //----------------------------------
-//Event node
+// General node page
+//----------------------------------
+*/
+
+.page-node .page-title {
+  line-height:1em;
+}
+
+/*
+//----------------------------------
+// Event node
 //----------------------------------
 */
 
@@ -1802,7 +1864,9 @@ div.warning{
 //Calender page
 //----------------------------------
 */
-
+.page-calendar #site-title a{
+    margin-top:12px;
+}
 .page-calendar h2 {
   font-size: 190%;
   margin: 1px;
@@ -1849,6 +1913,10 @@ div.warning{
     background-color: #EEE;
     border: none;
     border-bottom: 2px solid rgb(236, 236, 236);
+}
+
+.page-node.node-type-pdf-poster-article .page-title{
+ line-height: 1em
 }
 
 

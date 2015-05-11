@@ -130,6 +130,20 @@
       <?php endif; ?>
     </div>
   <?php endif; ?>
+
+  <?php if ($page['top2_first'] || $page['top2_second'] || $page['top2_third']): ?> 
+    <div id="top2-area" class="clearfix">
+      <?php if ($page['top2_first']): ?>
+      <div class="column"><?php print render($page['top2_first']); ?></div>
+      <?php endif; ?>
+      <?php if ($page['top2_second']): ?>
+      <div class="column"><?php print render($page['top2_second']); ?></div>
+      <?php endif; ?>
+      <?php if ($page['top_third']): ?>
+      <div class="column"><?php print render($page['top2_third']); ?></div>
+      <?php endif; ?>
+    </div>
+  <?php endif; ?>
    
 <?php endif; ?>
 
