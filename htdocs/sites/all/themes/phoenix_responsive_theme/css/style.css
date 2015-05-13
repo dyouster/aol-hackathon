@@ -1771,6 +1771,10 @@ div.warning{
     font-size:12px;
 }
 
+.page-news .field-items{
+    clear: both;
+}
+
 /*
 //------------------------------------------------------
 //Please Welcome page
@@ -1919,13 +1923,12 @@ div.warning{
  line-height: 1em
 }
 
-
 /*
-//----------------------------------
-//Auto-refresh
-//----------------------------------
+//-----------------------------------
+//Request event
+//-----------------------------------
 */
 
-.view-header .auto-refresh {
-  display: none;
+.node-type-webform .submitted{
+     display: none;
 }

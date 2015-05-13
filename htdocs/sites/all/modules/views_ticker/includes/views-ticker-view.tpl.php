@@ -53,27 +53,6 @@ foreach ($rows as $row)
 	print "<span class='views-liScroll-tick-field'>$row</span><span class='pipe_separator'>|</span></li>";
 }
 
-foreach ($rows as $row)
-{
-
-	print "<li class='views-liScroll-item views-liScroll-item-$viewname'>";
-	print "<span class='views-liScroll-tick-field'>$row</span><span class='pipe_separator'>|</span></li>";
-}
-
-foreach ($rows as $row)
-{
-
-	print "<li class='views-liScroll-item views-liScroll-item-$viewname'>";
-	print "<span class='views-liScroll-tick-field'>$row</span><span class='pipe_separator'>|</span></li>";
-}
-
-foreach ($rows as $row)
-{
-
-	print "<li class='views-liScroll-item views-liScroll-item-$viewname'>";
-	print "<span class='views-liScroll-tick-field'>$row</span><span class='pipe_separator'>|</span></li>";
-}
-
 print "</ul></div></div></div>";
 
 ?>
